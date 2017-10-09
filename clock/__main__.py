@@ -5,7 +5,6 @@ from kivy.core.text import LabelBase
 from kivy.core.window import Window
 from kivy.utils import get_color_from_hex
 from kivy.clock import Clock
-from kivy.properties import ObjectProperty
 from kivy.uix.boxlayout import BoxLayout
 
 
@@ -42,9 +41,6 @@ class ClockApp(App):
             self.sw_started = False
 
         self.sw_seconds = 0
-
-    def on_start(self):
-        Clock.schedule_interval(self.update, 1)
 
 if __name__ == '__main__':
     Window.clearcolor = get_color_from_hex('#101216')
