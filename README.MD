@@ -7,6 +7,7 @@ This is the clock application from that book with slight tweaks based on my UI t
 Fonts
 =====
 
-Raleway has selected as the font instead of Roboto to try something different.
+Aller was selected as the font instead of Roboto to try something different.
+Tried Raleway but the number alignment was distracting.
 
 [Font Squirrel](https://www.fontsquirrel.com/fonts/list/popular)
