@@ -7,11 +7,11 @@ from kivy.utils import get_color_from_hex
 from kivy.clock import Clock
 
 
-LabelBase.register(name="Raleway",
-    fn_regular="Raleway-Regular.ttf",
-    fn_bold="Raleway-Bold.ttf",
-    fn_italic="Raleway-Italic.ttf",
-    fn_bolditalic="Raleway-BoldItalic.ttf")
+LabelBase.register(name="Aller",
+    fn_regular="Aller_Rg.ttf",
+    fn_bold="Aller_Bd.ttf",
+    fn_italic="Aller_It.ttf",
+    fn_bolditalic="Aller_BdIt.ttf")
 
 
 class ClockApp(App):
